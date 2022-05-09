@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>CYBER SECURITY</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+</style>
+<body>
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-red w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+  <div class="w3-container">
+    <h3 class="w3-padding-64"><b>Location<br>Menu</b></h3>
+  </div>
+  <div class="w3-bar-block">
+    <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a> 
+	  <a href="overview.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">overview</a> 
+    <a href="types-of-protection.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Types of Protection</a>  
+    <a href="contact.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contact</a>
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-red w3-margin-right" onclick="w3_open()">☰</a>
+  <span>Cyber security</span>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+  <!-- Header -->
+  <div class="w3-container" style="margin-top:80px" id="showcase">
+    <h1 class="w3-jumbo"><b>cyber security</b></h1>
+    <h1 class="w3-xxxlarge w3-text-red"><b></b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+  </div>
+  
+  <!-- Photo grid (modal) -->
+  <div class="w3-row-padding">
+    <div class="w3-half">
+      <img src="image1.jpg" style="width:100%" onclick="onClick(this)" alt="welcome to this informative website of cyber security">
+      </div>
+
+  
+
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-black w3-xxlarge w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
+    </div>
+  </div>
+
+  <!-- Services -->
+  <div class="w3-container" id="overview" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Overview.</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p>This website is made with the sole purpose of informaing and teaching what cyber security is and why we need this in order to compute and live our day to day lives safely.</p>
+    <p>so in terms of cyber security this website is completly for informative purposes and is not markeitng anything, so cyber security is used in everyday life in things such as </p>
+	<p>your mobiles and also our pc and laptops as they all  need to be protected.
+	cyber security is a growing field as there are more and more products being produced whihc means new types of m,alicious software and also peaople are rising so these new products </p>
+	<p>must be proetected and all software must be safe and ready to use to.
+	There is a lot of ways a system can be compromised such as hackers, software add-ons and finally malware which esentially is software created witht the soul intention of causing harm </p>
+	<p>to a system to eiether disable it temporarly or make it completly useless.
+    </p>
+	</p> What is Cyber Security?</p>
+	</p> this is how we minimise the vulneranilty of cyber attacks on our individual systems and also to ensure complete protection this is used by everyone but mainly large cooperations such as banks as they require everything to be safe so their clients can 
+	remain anonymous and also ocmpletely covered from exposure</p>
+  </div>
+  
+  <!-- Types of Protection -->
+  <div class="w3-container" id="types-of-protection" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Types of Protection.</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p>The types of Protection there is to offer.</p>
+    <p>There are multiple types of protection which consist of:</p>
+	<p>1. firewalls - this is a type of protection used globally to mkae sure systems are hard to penetrate </p>
+	</div>
+	
+    
+ 
+  
+  <!-- Contact -->
+  <div class="w3-container" id="contact" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Contact.</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p>Do you want us to style your home? Fill out the form and fill me in with the details :) We love meeting new people!</p>
+    <form action="/action_page.php" target="_blank">
+      <div class="w3-section">
+        <label>Name</label>
+        <input class="w3-input w3-border" type="text" name="Name" required>
+      </div>
+      <div class="w3-section">
+        <label>Email</label>
+        <input class="w3-input w3-border" type="text" name="Email" required>
+      </div>
+      <div class="w3-section">
+        <label>Message</label>
+        <input class="w3-input w3-border" type="text" name="Message" required>
+      </div>
+      <button type="submit" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom">Send Message</button>
+    </form>  
+  </div>
+
+<!-- End page content -->
+
+<!-- W3.CSS Container -->
+<
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+</script>
+
+</body>
+</html>
